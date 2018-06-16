@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		0F8D8FCC20A716500062A368 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8D8FCB20A716500062A368 /* AppDelegate.swift */; };
-		0F8D8FCE20A716500062A368 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8D8FCD20A716500062A368 /* ViewController.swift */; };
+		0F8D8FCE20A716500062A368 /* terceiraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8D8FCD20A716500062A368 /* terceiraViewController.swift */; };
 		0F8D8FD120A716500062A368 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F8D8FCF20A716500062A368 /* Main.storyboard */; };
 		0F8D8FD320A716500062A368 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F8D8FD220A716500062A368 /* Assets.xcassets */; };
-		0F8D8FD620A716500062A368 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F8D8FD420A716500062A368 /* LaunchScreen.storyboard */; };
 		0F8D8FE120A716500062A368 /* ProjetoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8D8FE020A716500062A368 /* ProjetoTests.swift */; };
 		0F8D8FEC20A716500062A368 /* ProjetoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8D8FEB20A716500062A368 /* ProjetoUITests.swift */; };
+		0FEF142120B063820074252F /* CustomTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEF142020B063820074252F /* CustomTableView.swift */; };
+		0FFA1DFC20D5496400E8E0F2 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFA1DFB20D5496400E8E0F2 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +37,9 @@
 /* Begin PBXFileReference section */
 		0F8D8FC820A716500062A368 /* Projeto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Projeto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F8D8FCB20A716500062A368 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0F8D8FCD20A716500062A368 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0F8D8FCD20A716500062A368 /* terceiraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = terceiraViewController.swift; sourceTree = "<group>"; };
 		0F8D8FD020A716500062A368 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0F8D8FD220A716500062A368 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0F8D8FD520A716500062A368 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0F8D8FD720A716500062A368 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0F8D8FDC20A716500062A368 /* ProjetoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjetoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F8D8FE020A716500062A368 /* ProjetoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjetoTests.swift; sourceTree = "<group>"; };
@@ -47,6 +47,8 @@
 		0F8D8FE720A716500062A368 /* ProjetoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjetoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F8D8FEB20A716500062A368 /* ProjetoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjetoUITests.swift; sourceTree = "<group>"; };
 		0F8D8FED20A716500062A368 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FEF142020B063820074252F /* CustomTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableView.swift; sourceTree = "<group>"; };
+		0FFA1DFB20D5496400E8E0F2 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +100,12 @@
 			isa = PBXGroup;
 			children = (
 				0F8D8FCB20A716500062A368 /* AppDelegate.swift */,
-				0F8D8FCD20A716500062A368 /* ViewController.swift */,
+				0F8D8FCD20A716500062A368 /* terceiraViewController.swift */,
 				0F8D8FCF20A716500062A368 /* Main.storyboard */,
 				0F8D8FD220A716500062A368 /* Assets.xcassets */,
-				0F8D8FD420A716500062A368 /* LaunchScreen.storyboard */,
 				0F8D8FD720A716500062A368 /* Info.plist */,
+				0FEF142020B063820074252F /* CustomTableView.swift */,
+				0FFA1DFB20D5496400E8E0F2 /* SecondViewController.swift */,
 			);
 			path = Projeto;
 			sourceTree = "<group>";
@@ -232,7 +235,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F8D8FD620A716500062A368 /* LaunchScreen.storyboard in Resources */,
 				0F8D8FD320A716500062A368 /* Assets.xcassets in Resources */,
 				0F8D8FD120A716500062A368 /* Main.storyboard in Resources */,
 			);
@@ -259,8 +261,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F8D8FCE20A716500062A368 /* ViewController.swift in Sources */,
+				0FFA1DFC20D5496400E8E0F2 /* SecondViewController.swift in Sources */,
+				0F8D8FCE20A716500062A368 /* terceiraViewController.swift in Sources */,
 				0F8D8FCC20A716500062A368 /* AppDelegate.swift in Sources */,
+				0FEF142120B063820074252F /* CustomTableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,14 +306,6 @@
 				0F8D8FD020A716500062A368 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		0F8D8FD420A716500062A368 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0F8D8FD520A716500062A368 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
